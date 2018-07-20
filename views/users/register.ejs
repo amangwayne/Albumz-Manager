@@ -1,0 +1,39 @@
+<% include ../partials/header %>
+	<h1>Register</h1>
+	<form method="post" action="/users/register">
+		<div class="form-group">
+			<label>First Name</label>
+			<input type="text" name="first_name" class="form-control" placeholder="First Name">
+		</div>
+		<div class="form-group">
+			<label>Last Name</label>
+			<input type="text" name="last_name" class="form-control" placeholder="Last Name">
+		</div>
+		<div class="form-group">
+			<label>Email</label>
+			<input type="email" name="email" class="form-control" placeholder="Email">
+		</div>
+		<div class="form-group">
+			<label>Password</label>
+			<input type="password" name="password" class="form-control" placeholder="Password">
+		</div>
+		<div class="form-group">
+			<label>Confirm Password</label>
+			<input type="password" name="password2" class="form-control" placeholder="Confirm Password">
+		</div>
+		<h3>Optional Info</h3>
+		<div class="form-group">
+			<label>Location</label>
+			<input type="text" name="location" class="form-control" placeholder="Location">
+		</div>
+		<div class="form-group">
+			<label>Favorite Genres</label>
+			<input type="text" name="fav_genres" class="form-control" placeholder="Favorite Genres">
+		</div>
+		<div class="form-group">
+			<label>Favorite Artists</label>
+			<input type="text" name="fav_artists" class="form-control" placeholder="Favorite Artists">
+		</div>
+		<button type="submit" class="btn btn-default">Submit</button>
+	</form>
+<% include ../partials/footer %>

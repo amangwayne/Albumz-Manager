@@ -1,0 +1,24 @@
+.navbar {
+   margin-bottom: 20px;
+   padding-bottom: 10px;
+ }
+ .albums img, .album img{
+ 	width: 100%; 
+ 	border: 2px #fff solid;
+ }
+ .albums img:hover{
+ 	opacity: 0.7;
+ 	cursor: pointer;
+ }
+.albums h4{
+	margin-bottom: 0;
+}
+.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
+ footer{
+ 	margin-top: 40px
+ }
